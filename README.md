@@ -10,6 +10,10 @@ Uses the `mrt:bootstrap-3` Meteor package.
 Developed using `Meteor 0.9.1.1`
 
 
+### Sample
+
+Using a HTML5-capable browser, have a look at the running version [here](http://my-tile-juggler.meteor.com/).
+
 ### Running
 
 Just run meteor
