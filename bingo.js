@@ -1,7 +1,6 @@
 Tiles = new Meteor.Collection("tiles");
 
 if (Meteor.isClient) {
-  // client side
 
   var dragSrcEl = null;
 
