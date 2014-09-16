@@ -1,0 +1,22 @@
+<head>
+  <title>bingo</title>
+</head>
+
+<body>
+  <h1>Let's Play!</h1>
+  <div id="tiles">
+    {{> tiles}}
+  </div>
+</body>
+
+<template name="tiles" id="tiles">
+  {{#each all}}
+    {{> tile}}
+  {{/each}}
+</template>
+
+<template name="tile">
+  <div class="tile" draggable="true">
+    <header>{{name}}</header>
+  </div>
+</template>
